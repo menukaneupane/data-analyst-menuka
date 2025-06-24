@@ -23,13 +23,13 @@ Customer Profiles: CustomerID, Name, Contact Info, Payment Behavior
 The dataset was loaded using AWS services such as S3 and AWS Glue. Data cleaning procedures addressed missing values, standardized data types, and removed duplicates. To better understand the root causes of business questions, a Fishbone diagram was constructed. The dataset schema was designed to align with business objectives and data normalization standards. A data lake was designed in AWS S3 with appropriate folder structures, tags, and region specifications. VPC, EC2 instances, and Security Groups were configured to ensure a secure and scalable analysis environment.
 
 
-•	Business problem analysis (Fishbone diagram)
+**•	Business problem analysis (Fishbone diagram)**
 
 ![1](https://github.com/user-attachments/assets/09f6e5a0-8de0-4c70-a7aa-692eebe9eedb)
 _Figure 1: Fishbone design_
 
 
-•	Dataset schema and design planning
+**•	Dataset schema and design planning**
 
 ![2](https://github.com/user-attachments/assets/bada7f65-f6f2-4926-b1b0-9033ec13aed9)
 _Figure 2: Business question analysis_
@@ -39,13 +39,14 @@ _Figure 2: Business question analysis_
 _Figure 3: Data lake design on excel_
 
 
-•	Data lake setup (buckets, folders, region, tags)
+**•	Data lake setup (buckets, folders, region, tags)**
+
 
  ![4](https://github.com/user-attachments/assets/49f154bc-63aa-477a-b984-83a53f3ec419)
 _Figure 4: Data lake design on draw.io_
 
 
-•	Infrastructure setup (VPC, EC2, Security Group)
+**•	Infrastructure setup (VPC, EC2, Security Group)**
 
 ![5](https://github.com/user-attachments/assets/5b70c8c3-252e-4f47-86ba-185b95526807)
 _Figure 5: VPC created_
@@ -59,7 +60,7 @@ _Figure 6: Security group created_
 _Figure 7: Instances created_
 
 
-•	Documentation of data sources and structure
+**•	Documentation of data sources and structure**
 
  ![8](https://github.com/user-attachments/assets/9c05d35d-e97d-405b-9cfe-735574613c29)
 _Figure 8: Documentation of data sources_
@@ -70,12 +71,12 @@ _Figure 8: Documentation of data sources_
 
 Cost evaluation of dataset ingestion was conducted to measure the efficiency of data storage. The dataset cleaning analysis and design phase were documented. Dataset cleaning implementation executed in the AWS environment with logging and quality checks.
 
-•	Cost Evaluation of Dataset Ingestion
+**•	Cost Evaluation of Dataset Ingestion**
 
  ![9](https://github.com/user-attachments/assets/315ed752-6bab-4dc5-9c38-d9d74b7d5b90)
 _Figure 9: Cost Evaluation of Dataset Ingestion_
 
-•	Dataset Cleaning Analysis and Design
+**•	Dataset Cleaning Analysis and Design**
 
  ![10](https://github.com/user-attachments/assets/1caa8877-7105-400f-b01c-991ceeadcb2e)
 _Figure 10: Dataset Cleaning Analysis & Design for Payment records_
@@ -87,7 +88,7 @@ _Figure 11: Dataset Cleaning Analysis & Design for Invoice details_
 _Figure 12: Dataset Cleaning Analysis & Design for Customer Profiles_
 
 
-•	Dataset Cleaning Implementation
+**•	Dataset Cleaning Implementation**
 
  ![13](https://github.com/user-attachments/assets/452622f1-cd71-4214-9901-800ab4b5338f)
 _Figure 13: Dataset Cleaning Implementation on DataBrew_
@@ -103,4 +104,164 @@ _Figure 16: Dataset Cleaning Implementation for invoice details on system_
 
  ![17](https://github.com/user-attachments/assets/901d2914-00c2-4d56-ba44-d7d2ed9950a6)
 _Figure 17: Dataset Cleaning Implementation for invoice details on user_
+
+
+
+**3.	Data Visualization:**
+
+Cost evaluation of dataset profiling and cleaning supports decision-making in data preparation. ETL Design established workflows for extraction, transformation, and loading. ETL Implementation was completed using AWS services like Glue, Lambda, and S3.  Data cataloging, enriching, and summarization were performed.
+
+**•	Cost Evaluation of Dataset Profiling and Cleaning**
+
+ ![18](https://github.com/user-attachments/assets/3c962794-2bd6-45c4-ad05-b9c3c0d7e09f)
+_Figure 18: Cost Evaluation of Dataset Profiling and Cleaning_
+
+
+**•	ETL Design**
+
+
+ ![19](https://github.com/user-attachments/assets/c6aa5a38-ba44-4fe1-806b-4c7b81afbd68)
+_Figure 19: ETL Analysis on Excel_
+
+
+ ![20](https://github.com/user-attachments/assets/2469a320-2f6d-48d0-94a8-c1a111c3808d)
+_Figure 20: Data Enriching on Excel_
+
+
+![21](https://github.com/user-attachments/assets/fa94ae39-6c74-4bb8-b206-362207f318cd)
+_Figure 21: Data Summarization on Excel_
+
+
+![22](https://github.com/user-attachments/assets/de676122-4b4b-4e0c-88a7-1d8498cc9dda)
+_Figure 22: ETL Design_
+
+
+
+**•	ETL Implementation in AWS**
+
+ ![23](https://github.com/user-attachments/assets/29ffd860-23ee-4a96-978e-c125661b6772)
+_Figure 23: Alarms created using Cloudwatch_
+
+
+ ![24](https://github.com/user-attachments/assets/9bca30f5-66aa-44e9-8ec2-3854827ba403)
+_Figure 24: ETL Implementation curator bucket on system_
+
+
+![25](https://github.com/user-attachments/assets/c685feab-09ea-41ac-9d7b-bd7e4e17c168)
+_Figure 25: ETL Implementation curator bucket on user_
+
+
+![26](https://github.com/user-attachments/assets/f82ad2d3-52a6-4f22-9369-341d456d0b91)
+_Figure 26: Data Catalog_
+
+
+![27](https://github.com/user-attachments/assets/ff600547-2ed8-4335-bac0-6d6d3419e894) 
+_Figure 27: Data enriching_
+
+
+ ![28](https://github.com/user-attachments/assets/52f2c7de-2d0f-4e0a-b9b1-71144ecddf2f)
+_Figure 28: Data summarization_
+
+
+ ![29](https://github.com/user-attachments/assets/bbf6fe27-5f00-445f-b13c-1d62fd09dc06)
+_Figure 29: Data summarization result_
+
+
+
+**4.	Customer Segmentation**
+
+•	Grouped customers based on payment behavior using AWS Glue Data Brew.
+
+•	Segmented them into:
+
+High Risk: >50% delayed payments or avg. delay >15 days
+
+Medium Risk: 20–50% delayed payments
+
+Low Risk: <20% delayed payments
+
+
+**5.	Insights and Findings**
+   
+•	Peak delays occurred at month-end 
+
+•	Shorter invoice terms had fewer delays than longer ones. 
+
+•	Digital payments had better on-time rates; delays were common with manual methods.
+
+
+**6.	Recommendations**
+
+
+•	Set up auto-reminders before due dates for high-risk clients.
+
+•	Revise terms for frequent defaulters.
+
+•	Encourage digital payments with small incentives.
+
+•	Use dashboards to monitor delay trends and high-risk accounts.
+
+•	Enforce late fee policies for repeated delays.
+
+
+
+**Tools and Technologies**
+
+•	Data Analysis: AWS Glue DataBrew, Excel, Pandas
+
+•	Visualization: Tableau / Power BI
+
+•	Storage & Compute: AWS S3, EC2, VPC
+
+•	Cost Analysis: AWS Pricing Calculator
+
+
+**Deliverables**
+
+•	Cleaned datasets and structured data lake
+
+•	Cost analysis and ETL design documents
+
+•	Visual dashboard (delays, trends, risk zones)
+
+•	Summary report and stakeholder-ready presentation
+
+
+
+
+
+**AWS Deployment and Service Models**
+
+**•	Objective**
+
+To understand AWS cloud deployment (public, private, hybrid, multi cloud) and service models (IaaS, PaaS, SaaS). The difference between the traditional computing model and the cloud computing model as per their location, access, and privacy.
+
+**•	Tools and Services Used**
+
+AWS Management Console and draw.io.
+
+  
+![30](https://github.com/user-attachments/assets/2908fa05-b635-462b-8560-8755a79e7abf)
+_Figure 30: Traditional computing model VS Cloud computing model_
+
+
+ ![31](https://github.com/user-attachments/assets/762cbea7-be4f-4010-8f9f-3b7d7cc5a58b)
+_Figure 31: Case study 2_Cloud Deployment Models_
+
+
+![32](https://github.com/user-attachments/assets/b4f7bb61-2063-4136-bd58-3ddece26704b)
+_Figure 32: Case study 2_Diferrence between Public, Private, Hybrid, and Multi cloud_
+
+
+![33](https://github.com/user-attachments/assets/8e90dc28-d605-4387-8568-029d99c8c0a6)
+_Figure 33: Case Study 3_Cloud Service Models_
+
+
+ ![34](https://github.com/user-attachments/assets/949b3648-4db5-4315-aafb-55253778c38a)
+_Figure 34: Case study 3_Diferrence between IaaS, PaaS, and SaaS_
+
+ 
+ ![35](https://github.com/user-attachments/assets/d1fc74f3-dda6-4607-ac80-70de2b017ae9)
+_Figure 35: Knowledge Check Module 1_
+
 
