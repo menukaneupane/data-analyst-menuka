@@ -265,3 +265,134 @@ _Figure 34: Case study 3_Diferrence between IaaS, PaaS, and SaaS_
 _Figure 35: Knowledge Check Module 1_
 
 
+
+**AWS Cost Analysis**
+
+**•	Objective**
+
+To analyze AWS pricing using the AWS Pricing Calculator and Cost Explorer. Understand Total Cost of Ownership - Delaware North and support plan from the case on model 2.
+
+**•	Tools and Services Used**
+
+AWS Management Console, Cost Explorer, and Pricing Calculator 
+
+
+ ![36](https://github.com/user-attachments/assets/d47929b6-ac1d-4a3b-8584-b3423c35f4ba)
+_Figure 36: Case Study 4_Total Cost Of Ownership - Delaware North_
+
+
+ ![37](https://github.com/user-attachments/assets/ff2de172-3840-4531-ac37-80bbb2d62e19)
+_Figure 37: AWS Pricing Calculator_
+
+
+ ![38](https://github.com/user-attachments/assets/74a589ee-5423-477e-9800-870b40c529bd)
+_Figure 38: Case Study 6_Support Plan_
+
+
+ ![39](https://github.com/user-attachments/assets/58db5998-81f5-4c92-ac52-009b088c7a38)
+_Figure 39: Knowledge Check Module 2_
+
+
+
+**AWS Global infrastructure** 
+
+
+**•	Objective**
+
+To explore the difference between Regional Edge Cache, Edge Location, and Region as per their location, access, and privacy.
+
+**•	Tools and Services Used**
+
+AWS Management Console and draw.io
+
+
+ ![40](https://github.com/user-attachments/assets/41a5e937-7df5-4a94-92a6-96b45d9d9da9)
+_Figure 40: Difference between Regional Edge Cache, Edge Location, and Region_
+
+
+ ![41](https://github.com/user-attachments/assets/e4cb6f77-95a4-4a03-8dc8-37411abbd8aa)
+_Figure 41: Knowledge Check Module 3_
+
+
+**AWS IAM**
+
+**•	Objective**
+
+To understand UCW and AWS responsibility based on EC2, Platform, Software, and Dataset. And to configure secure access control using IAM users and roles.
+
+**•	Tools and Services Used**
+
+AWS Management Console, IAM, and draw.io
+
+
+ ![42](https://github.com/user-attachments/assets/98d5f886-7a7b-442f-94f6-60ea7805071f)
+_Figure 42: Case Study 8_ Responsible of UCW and AWS_
+
+
+ ![43](https://github.com/user-attachments/assets/234a2a1c-7616-493b-b197-3e03639ad0cb)
+_Figure 43: Lab 1-IAM Practice_
+
+
+ ![44](https://github.com/user-attachments/assets/463fbcb5-b297-4f0d-8099-737f26e939d5)
+_Figure 44: Knowledge Check Module 4_
+
+
+
+**AWS VPC**
+
+
+**•	Objective**
+
+To create and manage a secure network using subnets, route tables, and gateways.
+
+**•	Tools and Services Used**
+
+AWS Management Console and VPC
+
+
+ ![45](https://github.com/user-attachments/assets/2185f911-8cc7-4910-b9d6-98e1331661fe)
+_Figure 45: Lab 2-Build your VPC_
+
+
+![46](https://github.com/user-attachments/assets/623fcf79-2960-48e6-82fd-da4dbf201294)
+_Figure 46: Knowledge Check Module_
+
+
+
+**AWS Lambda**
+
+**•	Objective**
+
+To build a server less function triggered by S3 events to automate backend processing.
+
+**•	Tools and Services Used**
+
+AWS Management Console, S3, and Lambda
+
+
+![47](https://github.com/user-attachments/assets/06deccd5-0023-4976-8c85-05bb4f5efe3a) 
+_Figure 47: Lab- Create an AWS Lambda function_
+
+
+ ![48](https://github.com/user-attachments/assets/623f36f3-33b5-4666-8b07-3b2b32dedc98)
+_Figure 48: Knowledge Check Module 6_
+
+
+**AWS EBS**
+
+**•	Objective**
+
+To provision persistent block storage for EC2 and manage snapshots.
+
+**•	Tools and Services Used**
+
+AWS Management Console, EC2, and EBS
+
+
+ ![49](https://github.com/user-attachments/assets/0a08f37e-f765-4142-935f-86da803cf651)
+_Figure 49: Lab 4_Working with Amazon EBS_
+
+
+ ![50](https://github.com/user-attachments/assets/3a33660d-d1c7-4f0b-b468-33e45bb6123d)
+_Figure 50: Knowledge Check Module 7_
+
